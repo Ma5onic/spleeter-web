@@ -138,7 +138,8 @@ class SeparatorFormGroup extends React.Component<Props, State> {
       const text =
         selectedModel === 'xumx'
           ? 'Number of expectation–maximization steps for refining initial estimates in the post-processing stage.'
-          : 'Number of random shifts for equivariant stabilization. Higher values improve quality at the cost of longer processing times.';
+          : 'Number of random shifts for equivariant stabilization. Higher values improve quality at the cost of longer processing times.'
+          : 'This performs multiple predictions with random shifts (a.k.a the shift trick) of the input and average them. This makes prediction SHIFTS times slower. Do not use it unless you have a GPU.';
 
       return (
         <Tooltip id="status-tooltip" {...props}>
