@@ -11,7 +11,7 @@ djangorestframework==3.14.0
 google-api-python-client==2.72.0
 gunicorn==20.1.0
 h2==4.1.0
-nnabla==1.26.0
+nnabla==1.32.1
 numpy==1.22.4
 openvino==2022.3.0
 protobuf==3.19.4
@@ -28,6 +28,6 @@ xumx-spleeterweb==0.2.4
 yapf==0.32.0
 youtube-title-parse==1.0.0
 yt-dlp @ git+https://github.com/JeffreyCA/yt-dlp@bcb2893494d6cf9507ffdaf76b9ed24bd42f427d
-nnabla-ext-cuda110==1.26.0; sys_platform == 'linux'
+nnabla_ext_cuda114==1.32.1
 python-magic==0.4.27; sys_platform == 'linux'
 python-magic-bin==0.4.14; sys_platform != 'linux'
